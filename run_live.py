@@ -11,7 +11,7 @@ load_dotenv()
 ALPACA_CREDS = {
     "API_KEY": os.getenv("ALPACA_API_KEY"),
     "API_SECRET": os.getenv("ALPACA_API_SECRET"),
-    "PAPER": os.getenv("ALPACA_IS_PAPER", "True").lower() == "true"
+    "PAPER": os.getenv("ALPACA_IS_PAPER", "True").lower() == "true",
 }
 
 if not ALPACA_CREDS["API_KEY"]:

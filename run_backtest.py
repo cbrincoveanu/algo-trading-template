@@ -11,5 +11,5 @@ MagSeven.backtest(
     YahooDataBacktesting,
     start_date,
     end_date,
-    benchmark_asset="SPY" # Compare vs S&P 500
+    benchmark_asset="SPY",  # Compare vs S&P 500
 )
