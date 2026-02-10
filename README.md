@@ -70,7 +70,7 @@ Use Jupyter Notebooks to rapidly test hypotheses.
 
 ### Phase 2: Strategy Development (Lumibot)
 Once you have a robust idea, implement it as a class in `strategies/`.
-*   See `strategies/mag_seven.py` for an example of a multi-asset rebalancing strategy.
+*   See `strategies/mag_seven.py` for an example of a multi-asset buy-and-hold strategy.
 
 ### Phase 3: Backtesting (Event-Driven)
 Verify your strategy handles realistic constraints (fees, slippage, sequential data).
