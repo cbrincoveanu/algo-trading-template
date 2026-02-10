@@ -9,6 +9,9 @@ data/
 *.parquet
 *.h5
 
+# Logs
+logs/
+
 # Secrets (CRITICAL)
 .env
 secrets.json
