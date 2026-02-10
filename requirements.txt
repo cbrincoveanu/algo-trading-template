@@ -1,5 +1,4 @@
 black
 flake8
 mypy
-# alpaca-trade-api
-# lumibot
+lumibot
