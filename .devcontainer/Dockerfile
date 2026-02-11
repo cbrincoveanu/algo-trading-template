@@ -1,15 +1,11 @@
-# Start from the official VectorBT image
-FROM polakowo/vectorbt:latest-full
+FROM jupyter/scipy-notebook:latest
 
-# Switch to root to install additional packages if needed
 USER root
 
-# Install any extra system dependencies here
-# RUN apt-get update && apt-get install -y git
+RUN apt update
+RUN apt-get install libnss3 libatk-bridge2.0-0 libcups2 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libxkbcommon0 libpango-1.0-0 libcairo2 libasound2 -y
 
-# Switch back to the default user (jovyan is the default in Jupyter images)
 USER jovyan
 
-# Install additional Python packages for development (requirements.txt)
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
