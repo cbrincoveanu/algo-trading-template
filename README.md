@@ -4,6 +4,10 @@ A professional, reproducible environment for researching, backtesting, and execu
 
 This repository bridges the gap between **Data Science** (Vectorized Backtesting) and **Live Execution** (Event-Driven Trading). It is designed for developers and researchers who want to move beyond "spaghetti code" scripts into a robust trading infrastructure.
 
+Check out the corresponding blog post:
+
+* [Algorithmic Trading with VectorBT and Lumibot](https://www.cbrincoveanu.com/notes/algorithmic-trading-with-vectorbt-and-lumibot/)
+
 ## ⚡ Key Technologies
 
 *   **Research (Phase 1):** [VectorBT](https://vectorbt.dev/) — High-performance, vectorized backtesting using NumPy/Pandas broadcasting. Used for hypothesis testing and parameter optimization.
